@@ -1,7 +1,7 @@
 name: 每日股票分析-港股大盘复盘
 on:
   schedule:
-    - cron: '09 15 * * 1-5'
+    - cron: '0 10 * * 1-5'
   workflow_dispatch:
 jobs:
   analyze:
